@@ -22,7 +22,7 @@ También me interesa Tecnología porque es el departamento que podría conectar 
 
 Mi principal reto sería crear una plataforma interna que centralice la información de TrackFlow y permita automatizar tareas como los informes semanales, la detección de problemas y la generación de alertas. También me gustaría utilizar IA para analizar los datos y encontrar problemas que puedan pasar desapercibidos.
 
-## My AI Agent Idea
+## Mi idea de Agente de IA
 
 Mi idea sería crear un **asistente de IA interno para los trabajadores de TrackFlow**.
 
