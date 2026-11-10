@@ -14,7 +14,7 @@ _These instructions are also available in [English](./README.md)._
 Este repositorio es la **plantilla de inicio** para los proyectos transversales. Trabajarás con escenarios de empresas reales (Brasaland, TrackFlow, Nexova) construyendo entregables que se corresponden con los hitos del curso (Web, Programación, Backend, Telemetría, RAG, Agentes, Workflows, Tiempo real).
 
 - Crea una plantilla a partir de este repositorio.
-- Reemplaza el `CONTEXT.md` placeholder por el contexto de tu empresa asignada.
+- Si creas un repo nuevo a partir de esta plantilla, reemplaza allí el `CONTEXT.md` placeholder por el contexto de la empresa asignada.
 - Usa `skills/` y los `README.md` por carpeta como guía de trabajo.
 
 ---
@@ -23,7 +23,7 @@ Este repositorio es la **plantilla de inicio** para los proyectos transversales.
 
 1. **Usa este repositorio como plantilla** y crea tu propio repo de proyecto.
 2. **Clona** tu repositorio (o ábrelo en Codespaces).
-3. **Reemplaza** `CONTEXT.md` con el contexto completo de tu empresa asignada.
+3. Al crear tu propio repo desde esta plantilla, **reemplaza** su `CONTEXT.md` placeholder con el briefing de la empresa asignada. En este repo, `CONTEXT.md` ya contiene TrackFlow.
 4. **Lee esta guía de carpetas** y abre el `README.md` de la carpeta en la que estés trabajando.
 5. **Empieza a implementar** en la carpeta correcta — no tires todo en la raíz.
 6. **Documenta** lo que añadas: cada app, servicio, agente o pipeline nuevo lleva subcarpeta + README.
@@ -49,12 +49,12 @@ Estás construyendo **una sola empresa** a lo largo de muchos hitos y proyectos.
 
 ---
 
-## Estado actual de la plantilla
+## Estado actual del repositorio
 
-> 💡 Actualmente el repositorio ofrece solo una **estructura base de carpetas y documentación**. Todavía no incluye aplicaciones ejecutables ni scripts globales en la raíz.
+> 💡 Este repositorio conserva la **estructura base de carpetas y documentación** de la plantilla y ya está inicializado para TrackFlow. Todavía no incluye aplicaciones ejecutables ni scripts globales en la raíz.
 >
-> - `CONTEXT.md` es un placeholder y debe sustituirse por el contexto de la empresa asignada.
-> - No existe todavía un `AGENTS.md` en la raíz.
+> - `CONTEXT.md` ya contiene el briefing de TrackFlow y es la fuente de verdad del dominio.
+> - `AGENTS.md` existe en la raíz e indica las reglas del repo, el banco de memoria, las restricciones de TrackFlow y dónde vivirán las futuras aplicaciones.
 > - Existe metadata del paquete compartido en `packages/shared/package.json` (`@repo/shared-types`), pero aún no hay runner de workspace en raíz.
 
 ---
@@ -67,7 +67,7 @@ Lee el `README.md` enlazado dentro de cada carpeta antes de empezar a programar 
 
 | Ruta                         | Propósito                                                            | Qué haces aquí                                                                                               |
 | ---------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| [`CONTEXT.md`](./CONTEXT.md) | Fuente única de verdad de tu empresa (Brasaland, TrackFlow o Nexova) | **Primer paso:** copia aquí el briefing de tu empresa para que apps, agentes y prompts usen el mismo dominio |
+| [`CONTEXT.md`](./CONTEXT.md) | Fuente única de verdad de tu empresa (Brasaland, TrackFlow o Nexova) | Al crear un proyecto desde esta plantilla, reemplaza el placeholder por el briefing asignado para que apps, agentes y prompts compartan el dominio |
 | `docker-compose.yml`         | Orquestación local de todo el stack                                  | Mantener en la raíz del repo — conecta `services/`, bases de datos y otros contenedores desde un solo lugar  |
 | `README.md` / `README.es.md` | Esta guía                                                            | Orientación — estás aquí                                                                                     |
 
