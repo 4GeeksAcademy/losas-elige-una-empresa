@@ -14,7 +14,7 @@ _Estas instrucciones tambien estan disponibles en [espanol](./README.es.md)._
 This repository is the **starter template** for transversal projects. You will work on real company scenarios (Brasaland, TrackFlow, Nexova), building deliverables that map to course milestones (Web, Programming, Backend, Telemetry, RAG, Agents, Workflows, Real-time).
 
 - Create a template from this repository.
-- Replace the placeholder `CONTEXT.md` with your assigned company context.
+- If you create a new repo from this template, replace its placeholder `CONTEXT.md` with your assigned company context.
 - Use `skills/` and the directory-level `README.md` files as working guidance.
 
 ---
@@ -23,7 +23,7 @@ This repository is the **starter template** for transversal projects. You will w
 
 1. **Use this repository as a template** and create your own project repo.
 2. **Clone** your repository (or open it in Codespaces).
-3. **Replace** `CONTEXT.md` with the full context for your assigned company.
+3. When creating your own repo from this template, **replace** its `CONTEXT.md` placeholder with the assigned company briefing. In this repository, `CONTEXT.md` already contains TrackFlow.
 4. **Read this folder guide** and open the `README.md` of the folder you are working in.
 5. **Start implementing** in the right folder — do not dump everything in the root.
 6. **Document** what you add: each new app, service, agent, or pipeline gets a subfolder + README.
@@ -49,12 +49,12 @@ You are building **one company** across many milestones and projects. Each top-l
 
 ---
 
-## Current status of the template
+## Current repository status
 
-> 💡 This repository currently provides a **base folder structure and documentation skeleton** only. It does not include runnable apps or global scripts yet.
+> 💡 This repository retains the template's **base folder structure and documentation skeleton** and is initialized for TrackFlow. It does not include runnable apps or global scripts yet.
 >
-> - `CONTEXT.md` is a placeholder and must be replaced with your assigned company context.
-> - There is no root `AGENTS.md` yet.
+> - `CONTEXT.md` contains the TrackFlow briefing and is the source of truth for the business domain.
+> - A root `AGENTS.md` documents repository rules, the memory bank, TrackFlow constraints, and where future applications belong.
 > - Shared package metadata exists in `packages/shared/package.json` (`@repo/shared-types`), but no workspace runner is configured at root.
 
 ---
@@ -67,7 +67,7 @@ Read the linked `README.md` inside each folder before you start coding there.
 
 | Path                         | Purpose                                                                   | What you do here                                                                                              |
 | ---------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| [`CONTEXT.md`](./CONTEXT.md) | Single source of truth for your company (Brasaland, TrackFlow, or Nexova) | **First step:** copy your assigned company briefing here so every app, agent, and prompt uses the same domain |
+| [`CONTEXT.md`](./CONTEXT.md) | Single source of truth for your company (Brasaland, TrackFlow, or Nexova) | When creating a project from this template, replace the placeholder with the assigned briefing so apps, agents, and prompts share the same domain |
 | `docker-compose.yml`         | Local dev orchestration for the whole stack                               | Keep at repo root — wires `services/`, databases, and other containers from one place                         |
 | `README.md` / `README.es.md` | This guide                                                                | Orientation — you are here                                                                                    |
 
